@@ -9,3 +9,28 @@
 9. ReferenceError: i is not defined; This error is caused because i was declared with the let keyword inside the for loop, meaning it can only be accessed within the block it is defined in. It cannot be referenced outside of the for loop.
 10. The value of length, 3, is returned. The variable length is declared with the const keyword, meaning it cannot be reassigned after being assigned to prices.length. 3 is the value of length, which means it is also the value of prices.length at the start of the function. 
 11. Nothing is outputted to the console. However, the function returns the array [50, 100, 150]. The variable discounted, declared with the var keyword, is updated everytime the for loop runs. This is the value returned by the function discountPrices.
+12. A: student.name
+    B: student["Grad Year"]
+    C: student.greeting()
+    D: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    E: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+13. A: '32': Since string concatenation is done with the "+" symbol, the 2 is converted to a string and concatenated with the 3, producing '32'.
+    B: 1: Subtraction cannot be done between strings, so the '3' is converted to an integer.
+    C: null: null is converted to 0.
+    D: '3null': null is converted to a string and concatenated with '3'.
+    E: 4: true is converted to 1.
+    F: 0: false and null are both converted to 0.
+    G: '3undefined': undefined is converted to the string 'undefined' and concatenated with '3'.
+    H: NaN: undefined is converted to NaN (Not-a-Number). It is not a legal number that can be subtracted.
+14. A: true: '2' is converted to an integer.
+    B: false: '2' is greater than '1' alphabetically, so this statement is false.
+    C: true: The string '2' is converted to the number 2.
+    D: false: The === is a strict equality check that sees whether two values are of the same type. The 2 and '2' are of different types.
+    E: false: true is converted to the number 1, which is not equal to 2.
+    F: true: The === is a strict equality check that sees whether two values are of the same type. The Boolean() constructor returns the parameter with type boolean, so both true and Boolean(2) are of type boolean.
+15. The == operator performs an equality comparison, doing type conversion if needed before the comparison. The === operator is a strict equality operator that checks equality without type conversion.
+17. !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+19. 1
+    4
+    3
+    2
