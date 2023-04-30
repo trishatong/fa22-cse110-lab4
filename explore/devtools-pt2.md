@@ -1,0 +1,2 @@
+1. The types of num1 and num2 are both string, and thus, the type of result is string. The function calculateSum() returns the concatenation of num1 and num2 rather than the numeric sum of the two inputs.
+2. I would use the Number() function in order to convert the string values of num1 and num2 to numbers. ![](fix.png)
