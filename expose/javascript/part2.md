@@ -12,8 +12,8 @@
 12. A: student.name
     B: student["Grad Year"]
     C: student.greeting()
-    D: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    E: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    D: student['Favorite Teacher'].name
+    E: student.courseLoad[0]
 13. A: '32': Since string concatenation is done with the "+" symbol, the 2 is converted to a string and concatenated with the 3, producing '32'.
     B: 1: Subtraction cannot be done between strings, so the '3' is converted to an integer.
     C: null: null is converted to 0.
@@ -29,8 +29,9 @@
     E: false: true is converted to the number 1, which is not equal to 2.
     F: true: The === is a strict equality check that sees whether two values are of the same type. The Boolean() constructor returns the parameter with type boolean, so both true and Boolean(2) are of type boolean.
 15. The == operator performs an equality comparison, doing type conversion if needed before the comparison. The === operator is a strict equality operator that checks equality without type conversion.
-17. !!!!!!!!!!!!!!!!!!!!!!!!!!!!
-19. 1
+16. !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+17. 1
     4
     3
     2
+    !!!!!!!!!!!!!!!! explanation
