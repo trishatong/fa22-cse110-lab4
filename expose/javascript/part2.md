@@ -10,13 +10,13 @@
 10. The value of length, 3, is returned. The variable length is declared with the const keyword, meaning it cannot be reassigned after being assigned to prices.length. 3 is the value of length, which means it is also the value of prices.length at the start of the function. 
 11. Nothing is outputted to the console. However, the function returns the array [50, 100, 150]. The variable discounted, declared with the var keyword, is updated everytime the for loop runs. This is the value returned by the function discountPrices.
 12. A: student.name
-    B: student["Grad Year"]
+    B: student['Grad Year']
     C: student.greeting()
     D: student['Favorite Teacher'].name
     E: student.courseLoad[0]
 13. A: '32': Since string concatenation is done with the "+" symbol, the 2 is converted to a string and concatenated with the 3, producing '32'.
     B: 1: Subtraction cannot be done between strings, so the '3' is converted to an integer.
-    C: null: null is converted to 0.
+    C: 3: null is converted to 0.
     D: '3null': null is converted to a string and concatenated with '3'.
     E: 4: true is converted to 1.
     F: 0: false and null are both converted to 0.
