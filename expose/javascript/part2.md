@@ -29,9 +29,9 @@
     E: false: true is converted to the number 1, which is not equal to 2.
     F: true: The === is a strict equality check that sees whether two values are of the same type. The Boolean() constructor returns the parameter with type boolean, so both true and Boolean(2) are of type boolean.
 15. The == operator performs an equality comparison, doing type conversion if needed before the comparison. The === operator is a strict equality operator that checks equality without type conversion.
-16. !!!!!!!!!!!!!!!!!!!!!!!!!!!!
-17. 1
+17. [2, 4, 6]
+This function takes in an array and a callback function as its parameters. It first initializes the empty array "newArr". It then iterates through the input "array" with a for loop. The input "callback" function is called with the current index in array as the argument; its output is pushed to newArr. newArr is returned. The callback function "doSomething" takes in "num" as its parameter and returns a value twice num's value. When modifyArray() is called, it has the parameters "[1, 2, 3]" and "doSomething". As described, the function interates through the array and pushes an element twice the value of each element in the array to the empty array newArr, which is returned.
+19. 1
     4
-    3
+    3 
     2
-    !!!!!!!!!!!!!!!! explanation
